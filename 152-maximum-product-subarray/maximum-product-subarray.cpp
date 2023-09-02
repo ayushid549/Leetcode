@@ -20,7 +20,6 @@ public:
 
             ans = max(ans,max(prefix,suffix));
         }
-
         return ans;
     }
 };
